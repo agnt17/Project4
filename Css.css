@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(236, 238, 150);
+}
+nav{
+    font-family: 'ubuntu', 'sans-serif';
+    background-color: black;
+    position: relative;
+}
+nav ul{
+    display:flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+     
+}
+nav ul li{
+    padding: 0px 12px  ;
+}
+.brand img{
+    width: 48px;
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3 rem; 
+}
+.bottom{
+    position: sticky;
+    height: 150px; 
+    bottom:0;
+    /* display: block; */
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    color: white;
+    flex-direction:column;
+ 
+
+}
+.container{
+    min-height: 68vh;
+    background-image: url(mainbg1.jpg);
+    background-color: black;
+    color: white;
+    font-family:'ubuntu', 'sans-serif';
+    display: flex;
+    width: 75vw;
+    margin: 23px auto;
+    border-radius: 15px;
+}
+#myprogressbar{
+    /* text-align: center; */
+    width: 50vw;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    
+}
+.icons {
+    margin-top:14px; 
+
+}
+.icons i{
+    cursor: pointer;
+}
